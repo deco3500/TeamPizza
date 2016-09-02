@@ -107,7 +107,7 @@ Key deliverables for each phase (Milestones) ;
 Resources – equipment or other tools/people you might need. 
 
 Phase | Milestones | Resources | Due Date
-- - - | - - - | - - - | - - -
+------------ | ------------- | ------------- | -------------
 Research | Oral Pitch | Internet, Slack | September 2, 2016
 Requirements | Proposal | Google Docs | September 5, 2016
 Design | Design Sketches | Invision App | October 28, 2016
