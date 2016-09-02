@@ -41,7 +41,7 @@ Owns an Oppo F1 and likes to Google search for decent cafes. She is looking to t
 ### Members:
 
 Name | Student No.
-- - - | - - -
+------------ | -------------
 Ellen Renee Long | 43591541
 Mankaran Marok | 43531631
 Raul Revelo | 43442737
