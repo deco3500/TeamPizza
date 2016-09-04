@@ -1,7 +1,6 @@
 # *Introduction:*
 
 ## The Project
-
 Nowadays, communication and planning is managed through social media. Social media (Facebook, Twitter, etc) are platforms used to easily distribute and receive news and articles. A high percentage of news distributed in these platforms contain generic or irrelevant information.
 
 The project is focused in the distribution of food news through social media with the aim of creating an eating guide visible for all users around the area. The purpose of the project is to develop mobile (Android) based application that allows people to search and share food news, as well as share posts and photographs about eateries they’ve been to and meals they’ve had. 
@@ -9,7 +8,6 @@ The project is focused in the distribution of food news through social media wit
 Concept: outline the idea and the rationale behind it. Define the project aims and audience and identify how your idea is different from / improves upon other current offerings.
 
 ## Concept
-
 * “FOODLE will connect people with food and friends, wherever they are and whenever”
 * Merges food news and social media
 * User’s location is tracked so they get local food news - shows new cafes around Brisbane if the user lives in Brisbane
@@ -25,8 +23,6 @@ Concept: outline the idea and the rationale behind it. Define the project aims a
 * Provide localised food-related news/information
 
 ## Context
-(Target users/audience and context of use clearly defined and project is creatively aligned to them)
-
 Foodle’s primary audience are food lovers of all ages who live in the same locality and share similar interests in food. However, the application can also be used by people who just want to find a decent eatery that’s closeby. 
 
 Bailey 21 yr old - identifies as male
@@ -100,11 +96,6 @@ How will it facilitate communication and / or file sharing?
 Facebook chat is the primary mode of communication as it enables members to easily stay in contact on the go. 
 
 ## Plan
-Identify the key tasks that need to be completed and when. Identify:
-
-Project phases e.g. research; requirements; design; construction
-Key deliverables for each phase (Milestones) ;
-Resources – equipment or other tools/people you might need. 
 
 Phase | Milestones | Resources | Due Date
 ------------ | ------------- | ------------- | -------------
@@ -113,6 +104,15 @@ Requirements | Proposal | Google Docs | September 5, 2016
 Design | Design Sketches | Invision App | October 28, 2016
 Construction | Design Prototype | SourceTree, Eclipse, Android JDK | October 28, 2016
 
-Tags: Tag your proposed idea with 5 key concepts from social and mobile lectures (e.g. awareness, Collaboration, CSCW) and 2 keywords related to journalism and News (e.g. Citizen Journalists.
+## Tags
+* CSCW
+* 
+*
+*
+*
+* 
+*
+
+Tag your proposed idea with 5 key concepts from social and mobile lectures (e.g. awareness, Collaboration, CSCW) and 2 keywords related to journalism and News (e.g. Citizen Journalists).
 
 
