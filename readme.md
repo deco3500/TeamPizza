@@ -61,10 +61,17 @@ Ellen | design
 * When that fails, the team leader will make the final decision.
 
 ## Handling Conflicts
-All disagreements are to be settled by a majority vote. In cases where there is an even split amongst the members, a tutor will be consulted. 
+All disagreements are to be settled by a majority vote. In cases where there is an even split amongst the members, the course staff will be consulted.
+If a team member does not follow the rules agreed previously by being absent, unresponsive or performing poorly will be considered as an offending member. The team leader will contact this member on behalf of the group via email or personal Facebook chat. The offending member will be able to explain the reasons of his/her actions and find possible solutions to prevent this problem from happening again. It is responsibility of the rest of the group to decide if the reasons given by the offending team member are valid or not. 
 
 ## Communication
-In terms of communication, regular team meetings will be held each week during the scheduled project session. In addition, the team will also conduct special sprint meetings every after every couple of weeks. During these meetings, the team will decide on the tasks to be completed till the next sprint. In terms of communicating online, the team has established a Facebook group to discuss possible problems and solutions. Moreover, Slack channels will also be used to discuss issues with the teaching staff and other groups. Facebook chat is the primary mode of communication as it enables members to easily stay in contact on the go. 
+In terms of communication, regular team meetings will be held each week during the scheduled project session. In addition, the team will also conduct special sprint meetings every two weeks. During these meetings, the team will decide on the tasks to be completed till the next sprint. In terms of communicating online, the team has established a Facebook group to discuss possible problems and solutions. Moreover, Slack channels will also be used to discuss issues with the teaching staff and other groups. Facebook chat is the primary mode of communication as it enables members to easily stay in contact on the go. If a member of the group is not able to attend to a meeting, a minimum of 5-8 hours previous notice on the group chat (Facebook or Slack) is required.
+
+## File Naming Conventions
+* Avoid long file names
+* Abbreviate the contents of elements whenever possible.
+* Descriptive file names
+* Camel Case (newFile)
 
 ## Document Management
 * Google Drive will be utilised for file sharing and storage. 
