@@ -77,4 +77,6 @@ Requirements | Proposal | Google Docs | September 5, 2016
 Design | Design Sketches | Invision App | October 28, 2016
 Construction | Design Prototype | SourceTree, Eclipse, Android JDK | October 28, 2016
 
+## Tags
+Concept and Journalism Tags: #collaboration #awareness #community #share #foodJournalist 
 
