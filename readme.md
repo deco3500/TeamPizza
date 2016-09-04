@@ -48,7 +48,9 @@ The team leader will be in charge of writing up an agenda prior to the meeting. 
 ## Key Roles
 Team members are encouraged to work with other members in different fields of the project, however their primary roles are assigned as shown:
 
-Karan | back end
+Team Member | Responsibility
+------------ | -------------
+Mankaran | back end
 Raul | front end
 Andrea | content
 Ellen | design 
