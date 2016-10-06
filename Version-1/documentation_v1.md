@@ -1,6 +1,51 @@
 # Preliminary Research
 UI and UX designs from similar applications
 
+To provide the best user experience it was necessary to analyse similar application to the one desired to build (Foodle). The aim is to see and compare between apps, the common features that allow users to browse easily and communicate with their friends through the same platform.
+
+Currently in the market there several mobile applications that distribute food related content. The mobile applications reviewed in this section are BigOven, Yummly, Urban Spoon and Yelp. These platforms contain similar features and are high rated by users in the stores (AppStore and Google Play). This will help to improve certain features that would be implemented in Foodle.
+
+Several features from these applications are similar, so the features discussed in the next section are considered more relevant to the implementation of Foodle.  
+
+### BigOven:
+
+Overview: BigOven is an Android/IOS based application that allow users to create, search and share food recipes to their friends.
+It uses a simple image based approach to display the content. Main page (Figure 1) displays as a “news feed” recipes that friends shared or popular searches. It also implements a top menu bar which links all the application sites together. Figure 2, shows the user profile page. It contains the recipes that the user have created and shared with their friends. Also by “following” the user it is possible to keep track of the other user activity.
+
+Analysis:
+Main Page (Figure 1): The recipes are displayed as a list using large images with the name of each dish. To ease browsing, a search tool is implemented at the top of the screen as a quick access. Also the user can browse through the entire app by using the top menu bar.
+
+User Profile (Figure 2): At the top of the screen a counter is displayed which indicates how many recipes the owner currently have uploaded and the amount of people that follow their recipes. The recipes shared by the user (owner) are displayed as a list with medium sized images. Below each image a star rating system is implemented, every user is allowed to rate the recipe starting from the lowest rating value “1” to “5” stars which is the highest rating value.
+
+
+### Yummly Recipes & Shopping List
+
+Overview: Yummly is an Android/IOS based application that help users to collect, save and manage their favourite recipes. This application focuses on personalized searches. The user can select recipes depending of nutritional values (calories, fats, etc.), time and technique required to complete the recipe. Users that have downloaded the same application are able to rate and review others’ recipes.
+
+Analysis:
+As it is shown in Figure 3, Yummly uses a filter search tool. This feature allow user to refine their search depending on specific needs (salty, bitter, sour, etc.), as a result the user will find better recipes that suit their needs.
+
+Figure 4, shows the user rating and review section. Users within the same platform are able to rate and comment the recipes shared by their friends. Depending on the rating given by the participant users, an overall rating of the recipe (score from 1 to 5 stars) is displayed at the top of the screen.
+
+### Zomato
+
+### Yelp
+
+### Comparison and Conclusions
+
+* Standard rate system using stars à Spoons
+* Check how useful was the article from that particular restaurant.
+* Search Bar to search for restaurants outside the user’s location.
+* Avoid continuous transition through pages (frames)
+* Maybe rate the service and food too (more detailed rating system).
+ 
+Social Interaction:
+* Reward users depending of their contribution to the rest of users. Similar to “Yahoo Answers”.
+* Leaderboard to encourage people to share more content.
+* Other users not from the “friend list” are able to rate the information shared by the user. Increase interaction and make it less boring.
+* Meeting feature: Users able to set up meeting point (“create event on fb”) friends need to confirm attendance.
+* If user approves location tracking à create feature that allow the users to show their location on their friends map. Similar to Apple app “find friends”. Check if friends are in the zone and facilitate last minute meetings.
+
 # Version 1
 ## Wireframes
 ### Log In page
