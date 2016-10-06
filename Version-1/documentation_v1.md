@@ -2,33 +2,33 @@
 UI and UX designs from similar applications
 
 # Version 1
-## Base Wireframes
+## Wireframes
 ### Log In page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/images/login.png"  height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/login.png"  height="auto" width="250" >
 
 ### Menu page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/images/mainmenu.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/mainmenu.png" height="auto" width="250" >
 
 ### Newsfeed page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/images/newfeed.png"  height="auto" width="250" >
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/images/expandedarticle.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/newfeed.png"  height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/expandedarticle.png" height="auto" width="250" >
 
 ### Search page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/images/search1.png" height="auto" width="250" >
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/images/expandedsearch.png" height="auto" width="250" >
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/images/refinesearch.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/search1.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/expandedsearch.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/refinesearch.png" height="auto" width="250" >
 
 ### Inbox page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/images/inbox.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/inbox.png" height="auto" width="250" >
 
 ### Notify page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/images/tellafriend.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/tellafriend.png" height="auto" width="250" >
 
 ### Map page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/images/map.png"  height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/map.png"  height="auto" width="250" >
 
 ### Leave Review page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/images/leavereview.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/leavereview.png" height="auto" width="250" >
 
 
 
@@ -43,7 +43,7 @@ User suggested to include a ‘leave a review’ button as well as a ‘see user
 * Solution: include buttons to view user reviews and to leave a review.
 
 #### Newsfeed
-User thought that the newfeed looked bland with just article titles and blurbs. The user suggested using images in the article previews to make them look more appealing.
+nUser thought that the newfeed looked bland with just article titles and blurbs. The user suggested using images in the article previews to make them look more appealing.
 
 ### User 2
 #### Main Menu page
@@ -64,3 +64,41 @@ User thought the newsfeed page needed a filter for posts from friends and a filt
 
 #### Overall thoughts
 Application seemed pretty straightforward to the user. User thought that navigation was quite intuitive other than the flaws mentioned above. 
+
+## Mockups
+Based on the usability testing results above, mockups were made with the users' critiques put into consideration.
+
+Changes made: 
+* Main menu page has been removed and placed into menu/navigation bars at the bottom of the screen which will be present on every page
+* Images added to the background of the articles
+* Users have the option to read other user reviews on the restaurant details page
+
+Interactive wireframes were made on Marvel App. 
+https://marvelapp.com/86cbbjg
+
+### Log In page
+TBD
+
+### Newsfeed page
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/mockups/newsfeed.png"  height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/mockups/newsfeed-expand.png" height="auto" width="250" >
+
+### Search page
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/mockups/search.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/mockups/search-expanded.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/mockups/search-refined.png" height="auto" width="250" >
+
+### Inbox page
+TBD
+
+### Notify page
+TBD
+
+### Map page
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/mockups/nearby.png"  height="auto" width="250" >
+
+### Restaurant Details page
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/mockups/restaurant-details.png"  height="auto" width="250" >
+
+### Leave Review page
+<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/mockups/review.png" height="auto" width="250" >
