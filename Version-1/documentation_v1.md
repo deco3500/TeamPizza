@@ -88,7 +88,7 @@ User suggested to include a ‘leave a review’ button as well as a ‘see user
 * Solution: include buttons to view user reviews and to leave a review.
 
 #### Newsfeed
-nUser thought that the newfeed looked bland with just article titles and blurbs. The user suggested using images in the article previews to make them look more appealing.
+User thought that the newfeed looked bland with just article titles and blurbs. The user suggested using images in the article previews to make them look more appealing.
 
 ### User 2
 #### Main Menu page
