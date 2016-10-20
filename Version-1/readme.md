@@ -30,6 +30,15 @@ Figure 4, shows the user rating and review section. Users of Yummly can rate and
 
 ### Zomato
 
+Overview:
+Zomato, an Android/IOS based application, allows users to discover new restaurants in their area. Their main goal is to provide a vast list of restaurants to search through and give users the option to order food through the application.
+
+Analysis:
+As shown in Figure 5, Zomato features a “Places you might like” feature that provides users with a list of suggested restaurants. Suggestions are dependant on previous searches and places users have checked in to. Zomato also allows users to check restaurant menus and to “book a table”.
+
+In Figure 6, the bookmarks page stores a list of restaurants that have been pinned or saved by the user. 
+
+
 ### Yelp
 
 ### Comparison and Conclusions
