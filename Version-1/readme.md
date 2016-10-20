@@ -1,21 +1,21 @@
 # Preliminary Research
 UI and UX designs from similar applications
 
-To provide the best user experience it was necessary to analyse similar application to the one desired to build (Foodle). The aim is to see and compare between apps, the common features that allow users to browse easily and communicate with their friends through the same platform.
 
-Currently in the market there several mobile applications that distribute food related content. The mobile applications reviewed in this section are BigOven, Yummly, Urban Spoon and Yelp. These platforms contain similar features and are high rated by users in the stores (AppStore and Google Play). This will help to improve certain features that would be implemented in Foodle.
+In order to provide an optimal user experience it was necessary to analyse similar applications to the Foodle concept. The aim is to compare apps and find common features that allow users to easily browse and communicate with their friends on one platform.
 
-Several features from these applications are similar, so the features discussed in the next section are considered more relevant to the implementation of Foodle.  
+This document focuses on analysing the common, successful features of three food related mobile applications: BigOven, Yummly, Urban Spoon and Yelp. The features of these highly rated applications will help to shape the functionality of Foodle. 
+
 
 ### BigOven:
 
 Overview: BigOven is an Android/IOS based application that allow users to create, search and share food recipes to their friends.
-It uses a simple image based approach to display the content. Main page (Figure 1) displays as a “news feed” recipes that friends shared or popular searches. It also implements a top menu bar which links all the application sites together. Figure 2, shows the user profile page. It contains the recipes that the user have created and shared with their friends. Also by “following” the user it is possible to keep track of the other user activity.
+It uses a simple image based approach to display content. Popular searches or recipes shared by friends are displayed on the Main page (Figure 1). All application pages are linked in the menu bar (at the top of the page). Figure 2, shows the user profile page. It contains recipes created and shared by the user. User are able to track others by “following” them.
 
 Analysis:
-Main Page (Figure 1): The recipes are displayed as a list using large images with the name of each dish. To ease browsing, a search tool is implemented at the top of the screen as a quick access. Also the user can browse through the entire app by using the top menu bar.
+Main Page (Figure 1): Recipes are displayed in a list as large images with titles. For quick and easy browsing, a search tool is implemented at the top of the screen. Also the user can browse through the entire app by using the top menu bar.
 
-User Profile (Figure 2): At the top of the screen a counter is displayed which indicates how many recipes the owner currently have uploaded and the amount of people that follow their recipes. The recipes shared by the user (owner) are displayed as a list with medium sized images. Below each image a star rating system is implemented, every user is allowed to rate the recipe starting from the lowest rating value “1” to “5” stars which is the highest rating value.
+User Profile (Figure 2): At the top of the screen, follower count is indicated, as well as the number of recipes uploaded by the user. The recipes shared by the user (owner) are displayed as a list with medium sized images. Below each image a star rating system is implemented, users can rate recipes from lowest (1) to highest (5).
 
 
 ### Yummly Recipes & Shopping List
