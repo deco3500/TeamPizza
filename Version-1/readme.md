@@ -20,12 +20,13 @@ User Profile (Figure 2): At the top of the screen, follower count is indicated, 
 
 ### Yummly Recipes & Shopping List
 
-Overview: Yummly, an Android/IOS based application focused on personalised searches, helps users to collect, save and manage their favourite recipes. The user can select recipes based on nutritional value (calories, fats, etc.) and time and technique required to complete the recipe. Users are also able to rate and review others’ recipes.
+Overview:
+Yummly, an Android/IOS based application focused on personalised searches, helps users to collect, save and manage their favourite recipes. Useres can select recipes based on nutritional value as well as time and technique required to complete them. Additionally they can rate and review others’ recipes.
 
 Analysis:
-As shown in Figure 3, Yummly features a filtered search tool that allow users to refine their searches (salty, bitter, sour, etc.), to customise results. 
+As shown in Figure 3, Yummly has a filtered search tool (salty, bitter, sour, etc.) allowing users to refine their results.
 
-Figure 4, shows the user rating and review section. Users of Yummly can rate and comment recipes shared by friends. The recipe rating - 1 to 5 stars, shown at the top of the screen - is dependant on these reviews. 
+Figure 4, shows the user rating and review section. Users of Yummly can rate and comment recipes shared by friends. Recipe ratings - from 1 to 5 stars, shown at the top of the screen - are dependant on these reviews. 
 
 ### Zomato
 
