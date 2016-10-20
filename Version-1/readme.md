@@ -34,6 +34,24 @@ Figure 4, shows the user rating and review section. Users of Yummly can rate and
 
 ### Comparison and Conclusions
 
+Although displayed differently, several features were found to be common across BigOven, Yummly, Zomato and Yelp. These similarities will be discussed in the next section.
+
+It is important to mention that BigOven and Yummly are recipe focused, while Yelp and Zomato put emphasis on the display of restaurants and their services.
+
+
+*Search and advanced search (filters)*
+The four apps place the search feature at the top of the screen (easy access) and display the results from each search as a list. However, some of them lack the feature to refine or do specific searches (BigOven). The traditional approach to filter results is to tick boxes selecting the filters that you want to apply to the search, Yummly uses an innovative approach to refine the search for the users. As it is shown in Figure 3, a slider is implemented to filter results depending of the user needs. Therefore, it is easier for the user to specify how much filters will affect the search and by this way improve accuracy.
+
+*Rate and Review*
+Users are encouraged to leave a review sharing their experience. The five star rating system is consistent across all applications, which is commonly found in most applications on the market.
+
+*Bookmarks*
+The bookmark tool is used similarly across Zomato, Yummly and Yelp; providing a saved list of pages or links. They consist of a sample picture (of the food or restaurant) with a short description, rating and location (see Figure 6 – Zomato Bookmarks). However this feature was absent in BigOven, which could prove inconvenient to users wanting to revisit an article. 
+
+*Profiles*
+Users can manually create a profile or login using Facebook, Google+ or Twitter. BigOven, Yummly and Zomato provide three ways to sign up to their database while Yelp only allows users to sign up through Facebook or email. Some apps like BigOven, let users follow the content of other users instead of bookmarking. When users upload recipes, their “followers” will see this on their newsfeed. On the other hand, Yummly, Zomato and Yelp profiles are used to save a user’s preferences or likes, therefore their news feeds will be filtered accordingly with appropriate food.
+
+
 * Standard rate system using stars à Spoons
 * Check how useful was the article from that particular restaurant.
 * Search Bar to search for restaurants outside the user’s location.
