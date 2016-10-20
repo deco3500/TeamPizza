@@ -9,10 +9,13 @@ This document focuses on analysing the common, successful features of three food
 
 ### BigOven:
 
-Overview: BigOven is an Android/IOS based application that allow users to create, search and share food recipes to their friends.
+Overview:
+
+BigOven is an Android/IOS based application that allow users to create, search and share food recipes to their friends.
 It uses a simple image based approach to display content. Popular searches or recipes shared by friends are displayed on the Main page (Figure 1). All application pages are linked in the menu bar (at the top of the page). Figure 2, shows the user profile page. It contains recipes created and shared by the user. User are able to track others by “following” them.
 
 Analysis:
+
 Main Page (Figure 1): Recipes are displayed in a list as large images with titles. For quick and easy browsing, a search tool is implemented at the top of the screen. Also the user can browse through the entire app by using the top menu bar.
 
 User Profile (Figure 2): At the top of the screen, follower count is indicated, as well as the number of recipes uploaded by the user. The recipes shared by the user (owner) are displayed as a list with medium sized images. Below each image a star rating system is implemented, users can rate recipes from lowest (1) to highest (5).
@@ -21,6 +24,7 @@ User Profile (Figure 2): At the top of the screen, follower count is indicated, 
 ### Yummly Recipes & Shopping List
 
 Overview:
+
 Yummly, an Android/IOS based application focused on personalised searches, helps users to collect, save and manage their favourite recipes. Useres can select recipes based on nutritional value as well as time and technique required to complete them. Additionally they can rate and review others’ recipes.
 
 Analysis:
@@ -31,9 +35,11 @@ Figure 4, shows the user rating and review section. Users of Yummly can rate and
 ### Zomato
 
 Overview:
+
 Zomato, an Android/IOS based application, allows users to discover new restaurants in their area. Their main goal is to provide a vast list of restaurants to search through and give users the option to order food through the application.
 
 Analysis:
+
 As shown in Figure 5, Zomato features a “Places you might like” feature that provides users with a list of suggested restaurants. Suggestions are dependant on previous searches and places users have checked in to. Zomato also allows users to check restaurant menus and to “book a table”.
 
 In Figure 6, the bookmarks page stores a list of restaurants that have been pinned or saved by the user. 
@@ -49,15 +55,21 @@ It is important to mention that BigOven and Yummly are recipe focused, while Yel
 
 
 **Search and Advanced Search (Filters)**
+
 The four apps place the search feature at the top of the screen (easy access) and display the results from each search as a list. However, some of them lack the feature to refine or do specific searches (BigOven). The traditional approach to filter results is to tick boxes selecting the filters that you want to apply to the search, Yummly uses an innovative approach to refine the search for the users. As it is shown in Figure 3, a slider is implemented to filter results depending of the user needs. Therefore, it is easier for the user to specify how much filters will affect the search and by this way improve accuracy.
 
+The search bar is commonly placed at the top of the screen ..
+
 **Rate and Review**
+
 Users are encouraged to leave a review sharing their experience. The five star rating system is consistent across all applications, which is commonly found in most applications on the market.
 
 **Bookmarks**
+
 The bookmark tool is used similarly across Zomato, Yummly and Yelp; providing a saved list of pages or links. They consist of a sample picture (of the food or restaurant) with a short description, rating and location (see Figure 6 – Zomato Bookmarks). However this feature was absent in BigOven, which could prove inconvenient to users wanting to revisit an article. 
 
 **Profiles**
+
 Users can manually create a profile or login using Facebook, Google+ or Twitter. BigOven, Yummly and Zomato provide three ways to sign up to their database while Yelp only allows users to sign up through Facebook or email. Some apps like BigOven, let users follow the content of other users instead of bookmarking. When users upload recipes, their “followers” will see this on their newsfeed. On the other hand, Yummly, Zomato and Yelp profiles are used to save a user’s preferences or likes, therefore their news feeds will be filtered accordingly with appropriate food.
 
 
