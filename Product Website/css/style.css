@@ -89,9 +89,30 @@ h1 {
 
 
 #section2 {
-    height: 700px;
+    height: 1400px;
     width: 100%;
     overflow: hidden;   
+}
+
+
+#section2 h2 {
+    color: #af3131;
+    font-size: 50px;
+    letter-spacing: 1px;
+    
+}
+
+
+
+#imageLeft {
+    margin-left: 15%;
+}
+
+#blurbRight {
+    width: 30%;
+    float: right;
+    margin-right: 12%;  
+    top: 300px;
 }
 
 #section3 {
