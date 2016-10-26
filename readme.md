@@ -89,31 +89,31 @@ Social Interaction:
 # Version 1
 ## Wireframes
 ### Log In page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/login.png"  height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/wireframes/login.png"  height="auto" width="250" >
 
 ### Menu page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/mainmenu.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/wireframes/mainmenu.png" height="auto" width="250" >
 
 ### Newsfeed page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/newfeed.png"  height="auto" width="250" >
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/expandedarticle.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/wireframes/newfeed.png"  height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/wireframes/expandedarticle.png" height="auto" width="250" >
 
 ### Search page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/search1.png" height="auto" width="250" >
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/expandedsearch.png" height="auto" width="250" >
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/refinesearch.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/wireframes/search1.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/wireframes/expandedsearch.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/wireframes/refinesearch.png" height="auto" width="250" >
 
 ### Inbox page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/inbox.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/wireframes/inbox.png" height="auto" width="250" >
 
 ### Notify page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/tellafriend.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/wireframes/tellafriend.png" height="auto" width="250" >
 
 ### Map page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/map.png"  height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/wireframes/map.png"  height="auto" width="250" >
 
 ### Leave Review page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/wireframes/leavereview.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/wireframes/leavereview.png" height="auto" width="250" >
 
 
 
@@ -165,13 +165,13 @@ https://marvelapp.com/86cbbjg
 TBD
 
 ### Newsfeed page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/mockups/newsfeed.png"  height="auto" width="250" >
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/mockups/newsfeed-expand.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/mockups/newsfeed.png"  height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/mockups/newsfeed-expand.png" height="auto" width="250" >
 
 ### Search page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/mockups/search.png" height="auto" width="250" >
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/mockups/search-expanded.png" height="auto" width="250" >
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/mockups/search-refined.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/mockups/search.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/mockups/search-expanded.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/mockups/search-refined.png" height="auto" width="250" >
 
 ### Inbox page
 TBD
@@ -180,10 +180,10 @@ TBD
 TBD
 
 ### Map page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/mockups/nearby.png"  height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/mockups/nearby.png"  height="auto" width="250" >
 
 ### Restaurant Details page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/mockups/restaurant-details.png"  height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/mockups/restaurant-details.png"  height="auto" width="250" >
 
 ### Leave Review page
-<img src="https://github.com/deco3500/TeamPizza/blob/master/Version-1/mockups/review.png" height="auto" width="250" >
+<img src="https://github.com/deco3500/TeamPizza/blob/master/mockups/review.png" height="auto" width="250" >
