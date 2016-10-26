@@ -161,9 +161,6 @@ Changes made:
 Interactive wireframes were made on Marvel App. 
 https://marvelapp.com/86cbbjg
 
-### Log In page
-TBD
-
 ### Newsfeed page
 <img src="https://github.com/deco3500/TeamPizza/blob/master/mockups/newsfeed.png"  height="auto" width="250" >
 <img src="https://github.com/deco3500/TeamPizza/blob/master/mockups/newsfeed-expand.png" height="auto" width="250" >
@@ -172,12 +169,6 @@ TBD
 <img src="https://github.com/deco3500/TeamPizza/blob/master/mockups/search.png" height="auto" width="250" >
 <img src="https://github.com/deco3500/TeamPizza/blob/master/mockups/search-expanded.png" height="auto" width="250" >
 <img src="https://github.com/deco3500/TeamPizza/blob/master/mockups/search-refined.png" height="auto" width="250" >
-
-### Inbox page
-TBD
-
-### Notify page
-TBD
 
 ### Map page
 <img src="https://github.com/deco3500/TeamPizza/blob/master/mockups/nearby.png"  height="auto" width="250" >
