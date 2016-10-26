@@ -5,14 +5,15 @@
 
 <head>
 <!--Google fonts-->
-<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">        
+<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <TITLE> Home *Foodle</TITLE>	
 <script type="text/javascript" src="js/slideshow.js"></script>
 
 </head>
 
-<body>
+<body >
 <div id="page">
 	<header>
 <!--		add this back in later <a href="index.html"><img src="images/logo.jpg" alt="foodle logo" height="35%" width="100%"/></a>-->
@@ -21,7 +22,7 @@
 	<nav>
 	<div id="nav_wrapper">
 		<ul>			
-			<a href="contact.html"><li>Contact Us</li></a> 
+			<a href="index.html#foo"><li>Contact Us</li></a> 
             <a href="about.html"><li>About Foodle</li></a>
             <a href="index.html"><li>Home</li></a>
 			
@@ -29,34 +30,87 @@
 	</div>
 	</nav>
 
-
-
-
-		
-	<div class="footer">
+    <div id="section">
+        <div id="section1" style="background: url(images/foodle.png) ">
+            <h1>Welcome to Foodle!</h1>
+            
+            <div id="content">
+            </div>
         
-       
-		<div id="clowning">
-		<ul>
-		<li>
-        <a href="index.html">Home</a>|
-		</li>
-		<li>
-        <a href="Aboutus.html">About us </a>|
-		</li>
-		<li>
-        <a href="Form.html">Feedback</a>|
-		</li>
-	</ul>
-	</div>	
-	 
-		<div id="rights">
-		<p></p>
-		<ul>
-		<li>E-mail: info@foodle.com.au </li>
-		</ul>
-		</div>		
-	</div>	
+        </div>
+    
+        <div id="section2">
+            
+            <div id="content">
+            </div>
+        
+        </div>
+        
+        <div id="section3">
+            
+            
+            
+            <div id="content">
+                <a name="foo"><h2>Have Questions?</h2></a>
+                <p>If you have any questions regarding Foodle, feel free to shoot us through a message and we will get back to you as soon as possible! </p>
+                
+                
+                <form name="MessageForm" onsubmit="return validateForm()" method="post">
+                    <div class="contactForm">
+                          <label>
+                            <span><h4>*Name:</h4></span>
+                            <input id="contact-name" type="text" name="name" onfocus="selectedElement('name');" onblur="deselectedElement('name');" required>
+                          </label>
+                          <label>
+                            <span><h4>*Email:</h4></span>
+                            <input id="conatct-email" type="email" pattern="[^ @]*@[^ @]*" name="email" onfocus="selectedElement('email');" onblur="deselectedElement('email');" required>
+                          </label>
+                         <label>
+                            <span><h4>*Message:</h4></span>
+                            <textarea id="contact-message" type="textarea" name="message" onfocus="selectedElement('message');" onblur="deselectedElement('message');" required></textarea>
+                          </label>
+                        
+                    </div>
+                    
+					<!--Submit form-->
+                    <input id="submitbutton" type="submit" value="submit">
+                </form>
+                
+                
+            </div>
+        
+        </div>
+    
+    
+    
+    </div>
+
+    
+    <div class="footer">
+		<!--QSA social networks-->
+        <div id="socialmedia">
+            <ul>
+                <li>
+                    <a href="https://www.facebook.com/"><img src="images/facebook-with-circle.png" alt="Facebook Logo"></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com"><img src="images/twitter-with-circle.png" alt="Twitter Logo"></a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com"><img src="images/instagram-with-circle.png" alt="Instagram Logo"></a>
+                </li>
+            </ul>
+        </div>
+
+		<!--Copyright information-->
+        <div id="copyright">
+            <p>E-mail: info@foodle.com.au </p>
+            <p>Number: (07) 3719 5078</p>
+        </div>
+    </div>
+    
+    
+    
 </div>
 </body>
 </html>
