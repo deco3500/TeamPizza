@@ -7,63 +7,154 @@
 <!--Google fonts-->
 <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
 <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<meta charset="utf-8">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="js/onScroll.js"></script>
+
 <TITLE> Home *Foodle</TITLE>	
-<script type="text/javascript" src="js/slideshow.js"></script>
 
 </head>
 
-<body >
-<div id="page">
+<body>
+<div class="main">
 	<header>
 <!--		add this back in later <a href="index.html"><img src="images/logo.jpg" alt="foodle logo" height="35%" width="100%"/></a>-->
 	</header>
 	
 	<nav>
 	<div id="nav_wrapper">
+	<h3 class="titleFoodle"><i class="fa fa-cutlery" style="font-size:20px;color:white; margin-right:4px;"></i> FOODLE </h3>
 		<ul>			
-			<a href="index.html#contact"><li>Contact Us</li></a> 
-            <a href="index.html#about"><li>About Foodle</li></a>
-            <a href="index.html"><li>Home</li></a>
+			<a href="index.html"><li>Home </li></a>
+			<a href="index.html#introSection"><li> About Foodle </li></a>
+			<a href="index.html#section3"><li> Features </li></a>
+			<a href="index.html#questionsSection"><li> Contact Us </li></a> 
 			
 		</ul>
 	</div>
 	</nav>
 
-    <div id="section">
+    <section id="section1">
         <div id="section1" style="background: url(images/foodle.png) ">
             <h1>Welcome to Foodle!</h1>
-            
-            <div id="content">
-            </div>
-        
         </div>
-    
-        <div id="section2">
-            
-            <div id="content">
-                <a name="about"><h2>About Foodle</h2></a>
-                
-                <div id="screen1">
-                <img id="imageLeft" src="images/appHome.png" style="width: 200px; height: auto;">
-                <div id="blurbRight"><p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. "</p></div>
-                </div>
-                
-                
-            </div>
-            
+	</section> <!-- section -->
+
+	<section id="introSection">
+	<a name="about"><h2>What is Foodle?</h2></a>
+		<div id="introDiv">
+			<p> Foodle is a new and innovative mobile application that combines food news and social media. 
+			By focusing on providing a localised and personalised eating guide, users can conveniently discover
+			amazing restaurants in their area and send instant invitations to their friends. In addition, users can 
+			keep up to date with food news through the integrated news feed, featuring articles as well as images
+			and reviews posted by their friends. 
+			</p>			
+		</div>
+	
+	</section>
+	
+    <section id="section2">
+		<a name="about"><h2> Overview </h2></a>
+		<div class="sectionContent">
+		
+			<div id="flyoutNewsFeed">
+				<div class="descriptionBox">
+					<h4> News Feed </h4>				
+					<ul>
+						<li> Allows user to browse food-related news in their area. </li>
+						<li> Shows localised food news and posts from friends. </li>
+						<li> Shows pictures and posts left by friends </li>
+					</ul>
+					<a href="index.html#section3" class="readMore">Read more...</a>
+				</div>
+			</div>
+			
+			<div id="flyoutSearch">
+				<div class="descriptionBox">
+					<h4> Search </h4>				
+						<ul>
+						<li> You can search for restaurants by name. </li>
+						<li> Refine your search options. </li>
+						<li> See user reviews about the different restaurants found in your area. </li>
+					</ul>
+					<a href="index.html#newsTitle" class="readMore">Read more...</a>
+				</div>
+			</div>
+			
+			<div id="flyoutNearby">
+				<div class="descriptionBox">
+					<h4> Find restaurants nearby!</h4>				
+						<ul>
+							<li> Users can browse eateries nearby </li>
+							<li> Set your prefereces to search for different types of cuisine </li>
+							<li> Tell your friends about your favourite restaurants</li>
+						</ul>					
+						<a href="index.html#rateTile" class="readMore">Read more...</a>
+				</div>
+			</div>
+
+			
+			<div class="images-container">
+				<img id="imageLeft" class= "top" src="images/appHome.png" onclick="dialogChange()"> <!--newsFeed-->
+				<img id="imageMid" class= "mid" src="images/appHome.png" onclick="dialogChange()"> <!--search-->
+				<img id="imageRight" class= "bot" src="images/appHome.png" onclick="dialogChange()"> <!--nearby-->
+			</div>				
+         
+		 </div>  
+
+		 
+		 
+	</section> <!-- section2-->
+	
+	<section id="section3">
+		<a name="about"><h2> Features</h2></a>
+		<div id="featuresContainer">
+		
+		<h3 id="newsTitle"> News Feed </h3>
+			<li> Switch between viewing posts from friends or news articles or both. </li>
+			<li> Preview of article image in the background </li>
+			<li> We will show you suggestions of restaurants you might like, depending of your 
+					previous searches. </li>
+		
+		
+		<h3 id="searchTitle"> Search your favourite food </h3>
+			<li> Search for restaurants outside your location. </li>		
+			<li> Browse for restaurants by name. </li>
+			
+		<h3> Refine your Search </h3>	
+			<li> Users can refine their search options by selecting specific criteria. </li>
+			<li> Select your cuisine type (Thai, Chinese,Vegetarian, Italian, etc.) </li>
+			<li> Set a price range to fit your budget.</li>
+			<li> Search for restaurants depending of the user reviews. </li>			
+		
+		<h3 class="rateTitle"> Rate and review </h3>
+		<li> Users are encouraged to leave a review sharing their experience.
+		<li> Rate the restaurant from 1 to 5 stars </li>
+		
+		<h3 class="nearbyTitle"> Interact with your friends </h3>
+			<li> Add friends using the same platform to share content. </li>
+			<li> You can send notifications to friends to alert them about nearby eateries. </li>
+			<li> Upload pictures of your favorite food. </li>
+			<li> Enable tracking to let your friends know your location.</li>
+			<li> Create an event and invite your friends to specific restaurants. </li>
+			<li> Other users not from your “friend list” are able to rate your shared posts. </li>
+			
+		<h3> Leaderboard </h3>
+			<li>	Share your content and get points. </li>
+			<li> Rewards depends your type of contribution to the rest of users. </li>
+		
+		</div>
+	
+	</section>
+	
+	
         
-        </div>
-        
-        <div id="section3">
-            
-            
-            
-            <div id="content">
-                <a name="contact"><h2>Have Questions?</h2></a>
-                <p>If you have any questions regarding Foodle, feel free to shoot us through a message and we will get back to you as soon as possible! </p>
-                
-                
+    <section id="questionsSection">   
+        <div id="content">
+			<a name="contact"><h2>Have Questions?</h2></a>
+            <p>If you have any questions regarding Foodle, feel free to shoot us through a message and we will get back to you as soon as possible! </p> 
                 <form name="MessageForm" onsubmit="return validateForm()" method="post">
                     <div class="contactForm">
                           <label>
@@ -78,23 +169,14 @@
                             <span><h4>*Message:</h4></span>
                             <textarea id="contact-message" type="textarea" name="message" onfocus="selectedElement('message');" onblur="deselectedElement('message');" required></textarea>
                           </label>
-                        
                     </div>
-                    
 					<!--Submit form-->
                     <input id="submitbutton" type="submit" value="submit">
                 </form>
-                
-                
             </div>
         
-        </div>
-    
-    
-    
-    </div>
-
-    
+    </section> <!-- questionsSection-->	
+	
     <div class="footer">
 		<!--QSA social networks-->
         <div id="socialmedia">
@@ -114,12 +196,12 @@
 		<!--Copyright information-->
         <div id="copyright">
             <p>E-mail: info@foodle.com.au </p>
-            <p>Number: (07) 3719 5078</p>
+            <p>Number: xxxxxxxx</p>
         </div>
     </div>
     
-    
-    
-</div>
+</div>  <!-- Page -->
+
+
 </body>
 </html>
