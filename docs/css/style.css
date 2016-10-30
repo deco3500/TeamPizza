@@ -1,7 +1,6 @@
 body{
     font-family: Helvetica;
 	overflow: auto;
-	font-family: Lato;
 	font-size: 18px;
     margin: 0;
 	height: 100%;
@@ -89,6 +88,7 @@ section{
 }
 
 #introSection h2 {
+    font-family: Helvetica;
     color: white;
 }
 
@@ -127,6 +127,7 @@ section{
 }
 
 h2 {
+    font-family: Helvetica;
     padding-top: 5%;
     color: #af3131;
     font-size: 40px;
@@ -152,6 +153,7 @@ h2 {
 }
 
 #questionsSection h2 {
+    font-family: Helvetica;
     margin-left: 0;
     color: white;
     font-size: 50px;
@@ -159,6 +161,7 @@ h2 {
 }
 
 #questionsSection h4 {
+    font-family: Helvetica;
     color: white;
     letter-spacing: 1px;
     font-weight: lighter;
