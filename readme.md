@@ -17,8 +17,7 @@ Link to documentation: https://docs.google.com/document/d/1oo4iksjRW5Vrv8IUE3Fju
 ## Andrea
 * Developed medium-fidelity prototype
 * Developed high-fidelity prototype
-* Conducted user testing 
-* Developed user testing tasks (find better word)
+* Conducted user testing
 * Documentation 
 * Developed informative product website
 
