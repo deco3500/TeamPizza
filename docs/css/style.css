@@ -76,18 +76,24 @@ section{
 }
 
 #introSection {
-	height: 40%;
+	height: auto;
+    padding-bottom: 2%;
     width: 100%;	
 	background-color: white;
+    
+}
+
+#demo {
+    float:left;
 }
 
 #introDiv{
-    margin: 0 auto;
-	width: 100%;
+	width: 65%;
+    float:right;
 	height: auto; 
 	background-color: white;
-	padding: 3%;
     line-height: 28px;
+    
 }
 
 #introDiv p{
@@ -108,16 +114,11 @@ section{
 }
 
 h2 {
-    padding-top: 10%;
+    padding-top: 5%;
     color: #af3131;
     font-size: 40px;
-    letter-spacing: 1px;
-<<<<<<< HEAD
-	
-=======
     padding: 2% 5% 0 ;
     margin: 0;
->>>>>>> 755f68734d81c30c47ccfc0240949d7765d0b667
     font-size: 50px;
     text-align: center;
 }

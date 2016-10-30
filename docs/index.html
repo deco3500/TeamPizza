@@ -68,7 +68,7 @@ section {
 		<ul>			
 			<a href="#section1"><li>Home </li></a>
 			<a href="#introSection"><li> About Foodle </li></a>
-			<a href="#section3"><li> Features </li></a>
+			<a href="#features"><li> Features </li></a>
 			<a href="#questionsSection"><li> Contact Us </li></a> 
 			
 		</ul>
@@ -84,6 +84,7 @@ section {
 	<section id="introSection">
         <div id="content">
 	<a name="about"><h2>What is Foodle?</h2></a>
+            <iframe id="demo" src="https://marvelapp.com/iih71f?emb=1" width="258" height="500" allowTransparency="true" frameborder="0"></iframe>
 		<div id="introDiv">
 			<p>Nowadays, communication and planning are managed through social media. Platforms like Facebook and Twitter are used to easily distribute and receive news and articles. A high percentage of news distributed in these platforms contains generic or irrelevant information, especially if you are a foodie or just looking for a good bite to eat.<br><br>
             Foodle is a new and innovative mobile application that combines food news and social media. By focusing on providing a localised and personalised eating guide, users can conveniently discover amazing restaurants in their area and send instant invitations to their friends. In addition, users can keep up to date with food news through the integrated news feed, featuring articles as well as images and reviews posted by their friends. Users also have the option to swipe between news feeds to see just articles, or just posts from their friends. With all these features wrapped up in one application, users have the ultimate eating guide at their fingertips.
@@ -92,122 +93,12 @@ section {
         </div>
 	</section>
 	
-    <section id="section2">
-        <div id="content">
-		<a name="about"><h2> Overview </h2></a>
-		<div class="sectionContent">
-		
-			<div id="flyoutNewsFeed">
-				<div class="descriptionBox">
-					<h4> News Feed </h4>				
-					<ul>
-						<li> Allows user to browse food-related news in their area. </li>
-						<li> Shows localised food news and posts from friends. </li>
-						<li> Shows pictures and posts left by friends </li>
-					</ul>
-					<a href="index.html#dotDiv" class="readMore">Read more...</a>
-				</div>
-			</div>
-			
-			<div id="flyoutSearch">
-				<div class="descriptionBox">
-					<h4> Search </h4>				
-						<ul>
-						<li> You can search for restaurants by name. </li>
-						<li> Refine your search options. </li>
-						<li> See user reviews about the different restaurants found in your area. </li>
-					</ul>
-					<a href="index.html#newsTitle" class="readMore">Read more...</a>
-				</div>
-			</div>
-			
-			<div id="flyoutNearby">
-				<div class="descriptionBox">
-					<h4> Find restaurants nearby!</h4>				
-						<ul>
-							<li> Users can browse eateries nearby </li>
-							<li> Set your prefereces to search for different types of cuisine </li>
-							<li> Tell your friends about your favourite restaurants</li>
-						</ul>					
-						<a href="index.html#rateTile" class="readMore">Read more...</a>
-				</div>
-			</div>
-
-			
-			<div class="images-container">
-				<img id="imageLeft" class= "top" src="images/appHome.png" onclick="dialogChange()"> <!--newsFeed-->
-				<img id="imageMid" class= "mid" src="images/appHome.png" onclick="dialogChange()"> <!--search-->
-				<img id="imageRight" class= "bot" src="images/appHome.png" onclick="dialogChange()"> <!--nearby-->
-			</div>				
-        </div>
-		 </div>  
-	 
-	</section> <!-- section2-->
-	
-	<section id="section3">
-        <div id="content">
+    <section id="features">
+       <div id="content">
 		<a name="about"><h2> Features</h2></a>
-		<div class="slideshow-container" >
 		
-			<div class="mySlides fade">
-				<img src="images/1.jpg" style="width:300px">
-				<div class="text">Home screen</div>
-			</div>
-
-			<div class="mySlides fade">
-				<img src="images/2.jpg" style="width:300px">
-				<div class="text">Join us</div>
-			</div>
-
-			<div class="mySlides fade">
-				<img src="images/3.jpg" style="width:300px">
-				<div class="text">Filter your search</div>
-			</div>
-
-			<a class="prev" onclick="plusSlides(-1)">❮</a>
-			<a class="next" onclick="plusSlides(1)">❯</a>
 		
-		</div>	
-		<br>
-
-		<div id="dotDiv" class="dotContainer" style="text-align:center">
-			<span class="dot" onclick="currentSlide(1)"></span>
-			<span class="dot" onclick="currentSlide(2)"></span>
-			<span class="dot" onclick="currentSlide(3)"></span>
-		</div>	
 		
-		<br>
-<script>
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
-function showSlides(n) {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  var dots = document.getElementsByClassName("dot");
-  if (n > slides.length) {slideIndex = 1}
-  if (n < 1) {slideIndex = slides.length}
-  for (i = 0; i < slides.length; i++) {
-      slides[i].style.display = "none";
-  }
-  for (i = 0; i < dots.length; i++) {
-      dots[i].className = dots[i].className.replace(" active", "");
-  }
-  slides[slideIndex-1].style.display = "block";
-  dots[slideIndex-1].className += " active";
-}
-</script>
-		
-		<div id="featuresContainer">
-		<div id="content">
 		<h3 id="newsTitle"> News Feed </h3>
 			<li> Switch between viewing posts from friends or news articles or both. </li>
 			<li> Preview of article image in the background </li>
@@ -237,14 +128,12 @@ function showSlides(n) {
 			<li> Create an event and invite your friends to specific restaurants. </li>
 			<li> Other users not from your “friend list” are able to rate your shared posts. </li>
 			
-		<h3> Leaderboard </h3>
-			<li>	Share your content and get points. </li>
-			<li> Rewards depends your type of contribution to the rest of users. </li>
 		
-		</div>
         </div>
-        </div>
-	</section>
+        
+	</section> <!-- section2-->
+	
+	
 	
 	
         
