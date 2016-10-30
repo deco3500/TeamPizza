@@ -17,7 +17,7 @@ body{
 	text-align: center;
     display: inline-block;
     z-index:999;
-	background-color: #af3131;
+	background-color: rgba(0, 0, 0, 0.93);
 	
     
 }
