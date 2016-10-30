@@ -17,13 +17,16 @@ body{
 	text-align: center;
     display: inline-block;
     z-index:999;
-	background-color:transparent;
-	height:10%;	
+	background-color: #af3131;
+	
+    
 }
 
 #nav_wrapper:a {
     color: white;
 }
+
+
 
 nav ul{
 	position:relative;
@@ -32,23 +35,24 @@ nav ul{
     margin-top: 20px;
 	float:right;
 	margin-right: 3%;
-	font-weight:bold;
+	font-weight:bold;  
 }
 
 nav ul a {
     color: white;
+    text-decoration: none;
 }
 
 nav ul li{
 	display: inline;
-    border-right: thick double white;
-	padding: 10px;
+	padding: 10px;    
 }
 
 nav ul li:hover {
-    background: #af3131;    
-    -webkit-transition: width 1s, height 1s, background-color 1s, font-color 1s, -webkit-transform 1s;
-    transition: width 1s, height 1s, background-color 1s, transform 1s;
+    
+    background: #7b2727;  
+    -webkit-transition:height 1s, background-color 1s, font-color 1s, -webkit-transform 1s;
+    transition: width 1s,  width 1s, height 1s, background-color 1s, transform 1s;
 }
 
 h1 {
@@ -83,6 +87,14 @@ section{
     
 }
 
+#introSection h2 {
+    color: white;
+}
+
+#introSection p{
+    color: white;
+}
+
 #demo {
     float:left;
 }
@@ -91,7 +103,7 @@ section{
 	width: 65%;
     float:right;
 	height: auto; 
-	background-color: white;
+	background-color: #af3131;
     line-height: 28px;
     
 }
