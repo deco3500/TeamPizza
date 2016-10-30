@@ -5,7 +5,7 @@ body{
     margin: 0;
 	height: 100%;
 	min-height: 100%;
-    background-color: rgba(248, 247, 216, 0.7);
+    background-color: #eaeaea;
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -37,7 +37,7 @@ nav ul{
 	float:right;
 	margin-right: 3%;
 	font-weight:bold; 
-    
+    text-transform: lowercase;
     font-weight: lighter;
     letter-spacing: 2px;
 }
@@ -53,11 +53,11 @@ nav ul li{
 }
 
 nav ul li:hover {
-    color: #ff4545;  
+    color: #af3131;  
 }
 
 h1 {
-    font-size: 110px;
+    font-size: 70px;
     margin: 0;
     position: absolute;
     top: 340px;
@@ -66,8 +66,9 @@ h1 {
     transform: translate(-50%, -50%);
     font-family: Helvetica;
     color: black;
+    text-transform: lowercase;
     font-weight: lighter;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
 }
 
 #content {
@@ -92,7 +93,7 @@ section{
 #introSection h2 {
     font-family: Helvetica;
     color: white;
-    
+    text-transform: lowercase;
     font-weight: lighter;
     letter-spacing: 2px;
     
@@ -142,7 +143,7 @@ h2 {
     margin: 0;
     font-size: 50px;
     text-align: center;
-    
+    text-transform: lowercase;
     font-weight: lighter;
     letter-spacing: 2px;
 }
@@ -168,7 +169,7 @@ h2 {
     color: white;
     font-size: 50px;
     letter-spacing: 1px;
-    
+    text-transform: lowercase;
     font-weight: lighter;
     letter-spacing: 2px;
 }
@@ -365,7 +366,9 @@ th {
     width: 25%;
     font-family: Helvetica;
     font-size: 18px;
-    color: #932a2a;
+    color: black;
+    font-weight: lighter;
+    
 }
 
 
