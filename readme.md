@@ -1,5 +1,5 @@
 # Promotional Material 
-Link to github.io page thing
+https://deco3500.github.io/TeamPizza
 
 # Link to prototype
 The prototype can be accessed on your desktop device, mobile or tablet by copying the link into your web browser:
