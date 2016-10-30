@@ -20,6 +20,7 @@ Link to documentation: https://docs.google.com/document/d/1oo4iksjRW5Vrv8IUE3Fju
 * Conducted user testing 
 * Developed user testing tasks (find better word)
 * Documentation 
+* Developed informative product website
 
 ## Ellen
 * Developed low-fidelity prototype (wireframes)
