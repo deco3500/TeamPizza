@@ -113,10 +113,11 @@ section{
 }
 
 h2 {
+    padding-top: 10%;
     color: #af3131;
     font-size: 40px;
     letter-spacing: 1px;
-	margin-left: 5%;
+	
     font-size: 50px;
 }
 
@@ -277,14 +278,12 @@ h2 {
 }
 
 #featuresContainer {
-	width:80%;
+	width:100%;
 	height: auto;
-	margin-left: 6%;
+	
 	padding-bottom: 20px;
 }
-#featuresContainer li {
-	margin-left: 5%;
-}
+
 
 input {
     border: none;
