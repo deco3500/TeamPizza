@@ -2,8 +2,8 @@
 Link to github.io page thing
 
 # Link to prototype
-https://marvelapp.com/iih71f
 The prototype can be accessed on your desktop device, mobile or tablet by copying the link into your web browser:
+https://marvelapp.com/iih71f
 
 # Summary
 Nowadays, communication and planning are managed through social media. Platforms like Facebook and Twitter are used to easily distribute and receive news and articles. A high percentage of news distributed in these platforms contains generic or irrelevant information, especially if you are a foodie or just looking for a good bite to eat. 
@@ -37,4 +37,4 @@ Link to documentation:
 * Conducted preliminary research 
 * Conducted user testing 
 * Documentation
-Developed informative product website 
+* Developed informative product website 
