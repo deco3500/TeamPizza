@@ -39,12 +39,9 @@ nav ul a {
     color: white;
 }
 
-
-
 nav ul li{
 	display: inline;
     border-right: thick double white;
-    
 	padding: 10px;
 }
 
@@ -65,7 +62,6 @@ h1 {
     font-family: Raleway;
     font-weight: bold;
     color: #af3131;
-    
 }
 
 #content {
@@ -74,6 +70,7 @@ h1 {
     margin: auto;
     text-align: left;
 }
+
 section{
 	display:block;
 }
@@ -82,8 +79,8 @@ section{
 	height: 40%;
     width: 100%;	
 	background-color: white;
-	
 }
+
 #introDiv{
     margin: 0 auto;
 	width: 60%;
@@ -92,6 +89,7 @@ section{
 	padding: 3%;
     line-height: 28px;
 }
+
 #introDiv p{
 	text-align: justify;
 }
@@ -113,7 +111,8 @@ h2 {
     color: #af3131;
     font-size: 40px;
     letter-spacing: 1px;
-	margin-left: 5%;
+    padding: 2% 5% 0 ;
+    margin: 0;
 }
 
 #section3 {
@@ -133,7 +132,6 @@ h2 {
     color: white;
     font-size: 50px;
     letter-spacing: 1px;
-    
 }
 
 #questionsSection h4 {
@@ -165,7 +163,6 @@ h2 {
 	margin-left: 11%;
 }
 
-
 /*middle*/
 .images-container img:hover {
 	z-index:4;
@@ -174,7 +171,6 @@ h2 {
     -ms-transition: all 1s ease;
     transition: all 1s ease;
 	width:210px !important;
-	
 }
 
 .images-container .bot {
@@ -182,7 +178,6 @@ h2 {
 	height:auto;
 	z-index:3;
 }
-
 
 .images-container .mid {
 	z-index:1;	
