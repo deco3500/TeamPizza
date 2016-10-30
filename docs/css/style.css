@@ -7,6 +7,7 @@ body{
 	min-height: 100%;
     background-color: rgba(248, 247, 216, 0.7);
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 #nav_wrapper{
@@ -101,6 +102,8 @@ section{
     height: 700px;
     width: 100%;	
 	margin:0;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #section2 {
