@@ -87,7 +87,12 @@ section{
 	height: auto; 
 	background-color: white;
 	padding: 3%;
+<<<<<<< HEAD
     line-height: 28px;
+=======
+	margin-bottom: 150px;
+    
+>>>>>>> df9ad6448a264242caf6dcfc0e659c507eabcf6c
 }
 
 #introDiv p{
@@ -111,8 +116,13 @@ h2 {
     color: #af3131;
     font-size: 40px;
     letter-spacing: 1px;
+<<<<<<< HEAD
     padding: 2% 5% 0 ;
     margin: 0;
+=======
+	margin-left: 5%;
+    font-size: 50px;
+>>>>>>> df9ad6448a264242caf6dcfc0e659c507eabcf6c
 }
 
 #section3 {
@@ -120,6 +130,8 @@ h2 {
 	width: 100%;
 	height: auto;
 }
+
+
 
 #questionsSection {
     height: 800px;
@@ -129,6 +141,7 @@ h2 {
 }
 
 #questionsSection h2 {
+    margin-left: 0;
     color: white;
     font-size: 50px;
     letter-spacing: 1px;

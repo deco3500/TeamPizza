@@ -11,7 +11,46 @@
 <meta charset="utf-8">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.0/jquery-ui.min.js"></script>
+<script language="JavaScript" type="text/javascript" src="js/onScroll.js"></script>
+    
+    
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
 
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+ <style>
+body, html, .main {
+    height: 100%;
+}
+
+section {
+    min-height: 100%;
+}
+</style>
 
 <TITLE>Foodle</TITLE>	
 
@@ -27,10 +66,10 @@
 	<div id="nav_wrapper">
 	<h3 class="titleFoodle"><i class="fa fa-cutlery" style="font-size:20px;color:white; margin-right:4px;"></i> FOODLE </h3>
 		<ul>			
-			<a href="index.html"><li>Home </li></a>
-			<a href="index.html#introSection"><li> About Foodle </li></a>
-			<a href="index.html#section3"><li> Features </li></a>
-			<a href="index.html#questionsSection"><li> Contact Us </li></a> 
+			<a href="#section1"><li>Home </li></a>
+			<a href="#introSection"><li> About Foodle </li></a>
+			<a href="#section3"><li> Features </li></a>
+			<a href="#questionsSection"><li> Contact Us </li></a> 
 			
 		</ul>
 	</div>
@@ -165,7 +204,7 @@ function showSlides(n) {
 </script>
 		
 		<div id="featuresContainer">
-		
+		<div id="content">
 		<h3 id="newsTitle"> News Feed </h3>
 			<li> Switch between viewing posts from friends or news articles or both. </li>
 			<li> Preview of article image in the background </li>
@@ -200,7 +239,7 @@ function showSlides(n) {
 			<li> Rewards depends your type of contribution to the rest of users. </li>
 		
 		</div>
-	
+        </div>
 	</section>
 	
 	
