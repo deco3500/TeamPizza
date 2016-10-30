@@ -18,6 +18,7 @@ body{
     display: inline-block;
     z-index:999;
 	background-color: rgba(0, 0, 0, 0.93);
+    
 	
     
 }
@@ -35,7 +36,10 @@ nav ul{
     margin-top: 20px;
 	float:right;
 	margin-right: 3%;
-	font-weight:bold;  
+	font-weight:bold; 
+    
+    font-weight: lighter;
+    letter-spacing: 2px;
 }
 
 nav ul a {
@@ -49,23 +53,21 @@ nav ul li{
 }
 
 nav ul li:hover {
-    border-radius: 3px;
-    background: #7b2727;  
-    -webkit-transition:height 1s, background-color 1s, font-color 1s, -webkit-transform 1s;
-    transition: width 1s,  width 1s, height 1s, background-color 1s, transform 1s;
+    color: #ff4545;  
 }
 
 h1 {
-    font-size: 70px;
+    font-size: 110px;
     margin: 0;
     position: absolute;
-    top: 300px;
+    top: 340px;
     left: 50%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
     font-family: Helvetica;
-    font-weight: bold;
-    color: #af3131;
+    color: black;
+    font-weight: lighter;
+    letter-spacing: 2px;
 }
 
 #content {
@@ -90,6 +92,10 @@ section{
 #introSection h2 {
     font-family: Helvetica;
     color: white;
+    
+    font-weight: lighter;
+    letter-spacing: 2px;
+    
 }
 
 #introSection p{
@@ -111,6 +117,7 @@ section{
 
 #introDiv p{
 	text-align: justify;
+    font-size: 15px;
 }
 
 #section1 {
@@ -135,6 +142,9 @@ h2 {
     margin: 0;
     font-size: 50px;
     text-align: center;
+    
+    font-weight: lighter;
+    letter-spacing: 2px;
 }
 
 #section3 {
@@ -158,6 +168,9 @@ h2 {
     color: white;
     font-size: 50px;
     letter-spacing: 1px;
+    
+    font-weight: lighter;
+    letter-spacing: 2px;
 }
 
 #questionsSection h4 {
@@ -218,86 +231,6 @@ h2 {
 	height:auto;
 }
 
-/* description box */
-
-#flyoutNewsFeed {
-	position:absolute;
-	width: 40%;
-	margin-left:50%;
-	margin-top: 7%;
-	float: right;
-	z-index:6;	
-	visibility: visible;
-	
-}
-#flyoutSearch {
-	position:absolute;
-	width: 40%;
-	margin-left:50%;
-	margin-top: 7%;
-	float: right;
-	z-index:6;	
-	visibility: hidden;
-	
-}
-#flyoutNearby {
-	position:absolute;
-	width: 40%;
-	margin-left:50%;
-	margin-top: 7%;
-	float: right;
-	z-index:6;	
-	visibility: hidden;
-}
-
-.descriptionBox {
-	position: relative;
-	padding: 2%;
-	background: white;
-	border: 4px solid #c2e1f5;
-}
-.descriptionBox:after, .descriptionBox:before {
-	right: 100%;
-	top: 50%;
-	border: solid transparent;
-	content: " ";
-	height: 0;
-	width: 0;
-	position: absolute;
-	pointer-events: none;
-}
-
-.descriptionBox:after {
-	border-color: rgba(136, 183, 213, 0);
-	border-right-color: white;
-	border-width: 30px;
-	margin-top: -30px;
-}
-.descriptionBox:before {
-	border-color: rgba(194, 225, 245, 0);
-	border-right-color: #c2e1f5;
-	border-width: 36px;
-	margin-top: -36px;
-}
-
-#topicOneContainer {
-	width: 50%;
-	height: 50%;
-	background-color: white;
-	float:right;
-	margin-right:4%;
-}
-
-#topicOneContainer h4 {
-	padding-left: 5%;
-}
-
-#featuresContainer {
-	width:100%;
-	height: auto;
-	
-	padding-bottom: 20px;
-}
 
 
 input {
@@ -343,7 +276,7 @@ textarea {
 }
 
 #submitbutton:hover {
-    background: #e25151;    
+    background: #e24343;    
     -webkit-transition: width 1s, height 1s, background-color 1s, font-color 1s, -webkit-transform 1s;
     transition: width 1s, height 1s, background-color 1s, transform 1s;
 }
@@ -379,55 +312,15 @@ textarea {
     font-size: 14px;
 }
 
-.readMore{
-	float: right;
-	position:relative;
-	pointer: pointer;	
-}
+
 .titleFoodle {
 	float: left;
 	margin-left: 3%;
 	color: white;
 }
 
-/* slideshow*/
 
-.mySlides {
-	display:none
-}
 
-/* Slideshow container */
-.slideshow-container {
-  max-width: 400px;
-  position: relative;
-  margin-left: 40%;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  padding: 16px;
-  margin-top: -22px;
-  color: white;
-  font-weight: bold;
-  font-size: 25px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-}
-
-/* Position the "next button" to the right */
-.next {
-  margin-left: 255px;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
-}
 
 /* Caption text */
 .text {
@@ -470,6 +363,9 @@ textarea {
 th {
     text-align: center;
     width: 25%;
+    font-family: Helvetica;
+    font-size: 18px;
+    color: #932a2a;
 }
 
 
@@ -477,6 +373,8 @@ td {
     width: 25%;
     font-size: 15px;
     text-align: center;
+    font-family: Helvetica;
+    font-weight: lighter;
 }
 
 table {
